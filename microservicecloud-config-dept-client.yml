@@ -28,7 +28,7 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml
 eureka:
   client: #客户端注册进eureka服务列表内
-  register-with-eureka: false #当前eureka-server自己不注册进服务列表中
+    register-with-eureka: false #当前eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
     service-url:
       defalutZone: http://eureka7001.com/eureka
@@ -66,7 +66,7 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml
 eureka:
   client: #客户端注册进eureka服务列表内
-  register-with-eureka: false #当前eureka-server自己不注册进服务列表中
+    register-with-eureka: false #当前eureka-server自己不注册进服务列表中
     fetch-registry: false #不通过eureka获取注册信息
     service-url:
       defalutZone: http://eureka7001.com/eureka
